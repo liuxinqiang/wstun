@@ -7,4 +7,4 @@ reverse_server = new wstun.server_reverse();
 // reverse_server = new wstun.server_reverse({ssl:true, key:"<PRIVATE-KEY-PATH>", cert:"<PUBLIC-KEY-PATH>"});
 
 //start the server (<PORT> is the listening port)
-reverse_server.start(6900);
+reverse_server.start(5900);

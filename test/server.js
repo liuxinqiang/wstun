@@ -1,4 +1,4 @@
-var wstun = require("../index.js");
+const wstun = require("../index.js");
 
 // without security
 server = new wstun.server();
