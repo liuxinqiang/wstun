@@ -23,7 +23,8 @@ log4js = require('log4js');
 
 try{
     log4js.loadAppender('file');
-    logfile = '/var/log/wstun/wstun.log';
+    // logfile = '/var/log/wstun/wstun.log';
+    logfile = './wstun.log';
     loglevel = 'debug';
     log4js.addAppender(log4js.appenders.file(logfile));
 }
