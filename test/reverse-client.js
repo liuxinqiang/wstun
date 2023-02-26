@@ -3,7 +3,7 @@ const wstun = require("../index.js");
 reverse_client = new wstun.client_reverse();
 
 // without security
-wstunHost = 'ws://localhost:5900';
+wstunHost = 'ws://23.105.219.246:5900';
 
 // // or with security
 // wstunHost = 'wss://wstunServerIP:wstunPort';

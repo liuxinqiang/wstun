@@ -18,23 +18,6 @@
 //##
 //###############################################################################
 
-
-log4js = require('log4js');
-
-try{
-    log4js.loadAppender('file');
-    // logfile = '/var/log/wstun/wstun.log';
-    logfile = './wstun.log';
-    loglevel = 'debug';
-    log4js.addAppender(log4js.appenders.file(logfile));
-}
-catch (err) {
-    console.log("error log folder creation")
-}
-
-var logger = log4js.getLogger('main');
-logger.setLevel(loglevel);
-
 var portTunnel , argv, client, host, localport, optimist, port, server, wsHost, wst, _, _ref, _ref1;
 
 var _ = require("under_score");
